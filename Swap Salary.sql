@@ -8,11 +8,12 @@ Table: Salary
 | sex         | ENUM     |
 | salary      | int      |
 +-------------+----------+
+
 id is the primary key for this table.
 The sex column is ENUM value of type ('m', 'f').
 The table contains information about an employee.
  
-
+Question : 
 Write an SQL query to swap all 'f' and 'm' values (i.e., change all 'f' values to 'm' and vice versa) with a single update statement and no intermediate temporary tables.
 
 Note that you must write a single update statement, do not write any select statement for this problem.
@@ -40,6 +41,7 @@ Output:
 | 3  | C    | f   | 5500   |
 | 4  | D    | m   | 500    |
 +----+------+-----+--------+
+
 Explanation: 
 (1, A) and (3, C) were changed from 'm' to 'f'.
 (2, B) and (4, D) were changed from 'f' to 'm'.
@@ -56,4 +58,4 @@ when sex = 'f' then 'm'
 end;
 
 
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
