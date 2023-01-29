@@ -6,6 +6,7 @@ Table: Person
 | id          | int     |
 | email       | varchar |
 +-------------+---------+
+
 id is the primary key column for this table.
 Each row of this table contains an email. The emails will not contain uppercase letters.
  
@@ -42,6 +43,9 @@ SOLUTION:
 
 # Please write a DELETE statement and DO NOT write a SELECT statement.
 # Write your MySQL query statement below
+
+# ANS ==>
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 DELETE p1 FROM Person p1,
     Person p2
