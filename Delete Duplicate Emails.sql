@@ -36,6 +36,7 @@ Output:
 | 1  | john@example.com |
 | 2  | bob@example.com  |
 +----+------------------+
+
 Explanation: john@example.com is repeated two times. We keep the row with the smallest Id = 1.
 
 
@@ -45,6 +46,7 @@ SOLUTION:
 # Write your MySQL query statement below
 
 # ANS ==>
+
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 DELETE p1 FROM Person p1,
@@ -54,3 +56,4 @@ WHERE
 ;
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
